@@ -386,3 +386,17 @@ textarea {
 ============= */
 #section-4 img {
   width: 100%; }
+
+/* =============
+    Section 5
+============= */
+#section-5 {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: '. section-5 .'; }
+  #section-5 ul {
+    grid-area: section-5;
+    display: grid;
+    gap: 20px; }
+    #section-5 ul li img {
+      width: 100%; }
