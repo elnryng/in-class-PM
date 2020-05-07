@@ -6,8 +6,12 @@ footer{
     grid-template-columns: 6% auto 6%;
     grid-template-areas: ". footer .";
 
+    @include md{
+        grid-template-columns: 20% auto 20%;
+    }
+
     #footer-content{
         grid-area: footer;
-        // border: 1px solid red;
+        border: 1px solid red;
     }
 }
